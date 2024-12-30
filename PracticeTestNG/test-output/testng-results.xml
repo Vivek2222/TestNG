@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-30T02:16:33 IST" name="Default suite" finished-at="2024-12-30T02:16:34 IST" duration-ms="72">
+    <groups>
+    </groups>
+    <test started-at="2024-12-30T02:16:33 IST" name="Default test" finished-at="2024-12-30T02:16:34 IST" duration-ms="72">
+      <class name="FirstTestNGProgram.NewTest">
+        <test-method signature="firstTest()[pri:0, instance:FirstTestNGProgram.NewTest@6aba2b86]" started-at="2024-12-30T02:16:34 IST" name="firstTest" finished-at="2024-12-30T02:16:34 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method signature="secondTest()[pri:0, instance:FirstTestNGProgram.NewTest@6aba2b86]" started-at="2024-12-30T02:16:34 IST" name="secondTest" finished-at="2024-12-30T02:16:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- FirstTestNGProgram.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
