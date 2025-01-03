@@ -2,20 +2,60 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-30T02:16:33 IST" name="Default suite" finished-at="2024-12-30T02:16:34 IST" duration-ms="72">
+  <suite started-at="2025-01-03T03:48:03 IST" name="Suite" finished-at="2025-01-03T03:48:03 IST" duration-ms="73">
     <groups>
     </groups>
-    <test started-at="2024-12-30T02:16:33 IST" name="Default test" finished-at="2024-12-30T02:16:34 IST" duration-ms="72">
-      <class name="FirstTestNGProgram.NewTest">
-        <test-method signature="firstTest()[pri:0, instance:FirstTestNGProgram.NewTest@6aba2b86]" started-at="2024-12-30T02:16:34 IST" name="firstTest" finished-at="2024-12-30T02:16:34 IST" duration-ms="14" status="PASS">
+    <test started-at="2025-01-03T03:48:03 IST" name="Test" finished-at="2025-01-03T03:48:03 IST" duration-ms="73">
+      <class name="annotations.LoginPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:02 IST" name="beforeSuite" finished-at="2025-01-03T03:48:03 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method signature="secondTest()[pri:0, instance:FirstTestNGProgram.NewTest@6aba2b86]" started-at="2024-12-30T02:16:34 IST" name="secondTest" finished-at="2024-12-30T02:16:34 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="beforeTest" finished-at="2025-01-03T03:48:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondTest -->
-      </class> <!-- FirstTestNGProgram.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="beforeClass" finished-at="2025-01-03T03:48:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="beforeMethod" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTestCase1()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="LoginTestCase1" finished-at="2025-01-03T03:48:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="afterMethod" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="beforeMethod" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTestCase2()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="LoginTestCase2" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="afterMethod" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="afterClass" finished-at="2025-01-03T03:48:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="afterTest" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:annotations.LoginPage@35e2d654]" started-at="2025-01-03T03:48:03 IST" name="afterSuite" finished-at="2025-01-03T03:48:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- annotations.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
