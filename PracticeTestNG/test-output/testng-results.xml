@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="1" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-27T05:38:54 IST" name="Default suite" finished-at="2025-02-27T05:38:56 IST" duration-ms="1273">
+  <suite started-at="2025-02-28T03:33:37 IST" name="Suite" finished-at="2025-02-28T03:33:38 IST" duration-ms="1120">
     <groups>
     </groups>
-    <test started-at="2025-02-27T05:38:54 IST" name="Default test" finished-at="2025-02-27T05:38:56 IST" duration-ms="1273">
-      <class name="listerners.TestClass">
-        <test-method signature="testMethod3()[pri:0, instance:listerners.TestClass@44ebcd03]" started-at="2025-02-27T05:38:54 IST" name="testMethod3" finished-at="2025-02-27T05:38:55 IST" duration-ms="45" status="FAIL">
+    <test started-at="2025-02-28T03:33:37 IST" name="Test" finished-at="2025-02-28T03:33:38 IST" duration-ms="1120">
+      <class name="listerners.TestClass2">
+        <test-method signature="testMethod3()[pri:0, instance:listerners.TestClass2@661972b0]" started-at="2025-02-28T03:33:37 IST" name="testMethod3" finished-at="2025-02-28T03:33:37 IST" duration-ms="24" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [TestNGListenersDemo] but found [TestNGListeners]]]>
@@ -20,7 +20,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at listerners.TestClass.testMethod3(TestClass.java:25)
+at listerners.TestClass2.testMethod3(TestClass2.java:22)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -53,20 +53,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod3 -->
-        <test-method signature="testMethod1()[pri:0, instance:listerners.TestClass@44ebcd03]" started-at="2025-02-27T05:38:55 IST" name="testMethod1" finished-at="2025-02-27T05:38:55 IST" duration-ms="7" status="PASS">
+        <test-method signature="testMethod1()[pri:0, instance:listerners.TestClass2@661972b0]" started-at="2025-02-28T03:33:37 IST" name="testMethod1" finished-at="2025-02-28T03:33:37 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method signature="testMethod2()[pri:0, instance:listerners.TestClass@44ebcd03]" started-at="2025-02-27T05:38:55 IST" name="testMethod2" finished-at="2025-02-27T05:38:56 IST" duration-ms="1036" status="FAIL">
+        <test-method signature="testMethod2()[pri:0, instance:listerners.TestClass2@661972b0]" started-at="2025-02-28T03:33:37 IST" name="testMethod2" finished-at="2025-02-28T03:33:38 IST" duration-ms="1024" status="FAIL">
           <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
-              <![CDATA[Method listerners.TestClass.testMethod2() didn't finish within the time-out 1000]]>
+              <![CDATA[Method listerners.TestClass2.testMethod2() didn't finish within the time-out 1000]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method listerners.TestClass.testMethod2() didn't finish within the time-out 1000
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method listerners.TestClass2.testMethod2() didn't finish within the time-out 1000
 at java.base/java.lang.Thread.sleep0(Native Method)
 at java.base/java.lang.Thread.sleep(Thread.java:509)
-at listerners.TestClass.testMethod2(TestClass.java:18)
+at listerners.TestClass2.testMethod2(TestClass2.java:16)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -83,15 +83,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
-        <test-method signature="testMethod4()[pri:0, instance:listerners.TestClass@44ebcd03]" started-at="2025-02-27T05:38:56 IST" name="testMethod4" finished-at="2025-02-27T05:38:56 IST" depends-on-methods="listerners.TestClass.testMethod3" duration-ms="0" status="SKIP">
+        <test-method signature="testMethod4()[pri:0, instance:listerners.TestClass2@661972b0]" started-at="2025-02-28T03:33:38 IST" name="testMethod4" finished-at="2025-02-28T03:33:38 IST" depends-on-methods="listerners.TestClass2.testMethod3" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method listerners.TestClass.testMethod4() on instance listerners.TestClass@44ebcd03 depends on not successfully finished methods 
-[listerners.TestClass.testMethod3() on instance listerners.TestClass@44ebcd03]]]>
+              <![CDATA[Method listerners.TestClass2.testMethod4() on instance listerners.TestClass2@661972b0 depends on not successfully finished methods 
+[listerners.TestClass2.testMethod3() on instance listerners.TestClass2@661972b0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method listerners.TestClass.testMethod4() on instance listerners.TestClass@44ebcd03 depends on not successfully finished methods 
-[listerners.TestClass.testMethod3() on instance listerners.TestClass@44ebcd03]
+              <![CDATA[java.lang.Throwable: Method listerners.TestClass2.testMethod4() on instance listerners.TestClass2@661972b0 depends on not successfully finished methods 
+[listerners.TestClass2.testMethod3() on instance listerners.TestClass2@661972b0]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -117,7 +117,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod4 -->
-      </class> <!-- listerners.TestClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- listerners.TestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
